@@ -1,0 +1,29 @@
+.postBox {
+  margin-bottom: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postBox__title {
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.postBox > button {
+  max-width: 100px;
+  width: 100%;
+  color: white;
+  opacity: 0.8;
+  background-color: transparent;
+  border: 2px solid #16181a;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.postBox > button:hover {
+  background-color: #16181a;
+}
